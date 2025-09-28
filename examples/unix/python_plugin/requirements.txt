@@ -1,0 +1,3 @@
+requests==2.31.0
+# Unix/Linux系统使用Unix域套接字通信，无需额外依赖
+# 注意：Windows系统需要pywin32包来支持命名管道通信

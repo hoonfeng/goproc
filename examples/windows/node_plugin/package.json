@@ -1,0 +1,12 @@
+{
+  "name": "node-plugin",
+  "version": "1.0.0",
+  "description": "Node.js plugin for goproc",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

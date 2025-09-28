@@ -1,0 +1,15 @@
+# GoProc Python Plugin Dependencies for Windows
+# 
+# 核心依赖
+requests==2.31.0
+
+# Windows命名管道支持 (必需)
+pywin32==306
+
+# 安装说明:
+# pip install -r requirements.txt
+#
+# 注意事项:
+# - pywin32包是Windows命名管道通信的必需依赖
+# - 确保Python版本兼容 (推荐Python 3.7+)
+# - Unix/Linux系统请使用unix目录下的requirements.txt
