@@ -361,6 +361,12 @@ class PluginSDK {
                         // Unix域套接字（默认）
                         //console.log('使用Unix域套接字监听');
                         
+                        // 确保socket文件所在目录存在
+                        const socketDir = require('path').dirname(address);
+                        if (!fs.existsSync(socketDir)) {
+                            fs.mkdirSync(socketDir, { recursive: true });
+                        }
+                        
                         // 删除已存在的socket文件
                         if (fs.existsSync(address)) {
                             fs.unlinkSync(address);

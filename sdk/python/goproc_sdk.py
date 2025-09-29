@@ -346,6 +346,11 @@ class PluginSDK:
                 
             else:
                 # Unix域套接字
+                # 确保socket文件所在目录存在
+                socket_dir = os.path.dirname(address)
+                if socket_dir and not os.path.exists(socket_dir):
+                    os.makedirs(socket_dir, exist_ok=True)
+                
                 if os.path.exists(address):
                     os.unlink(address)
                 
