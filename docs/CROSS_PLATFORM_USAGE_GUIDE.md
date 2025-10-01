@@ -139,7 +139,7 @@ package main
 
 import (
     "fmt"
-    "goproc/sdk"
+    "github.com/hoonfeng/goproc/sdk"
 )
 
 // 业务函数 - 跨平台兼容
