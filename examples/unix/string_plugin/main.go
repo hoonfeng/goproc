@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode"
 
-	"goproc/sdk"
+	"github.com/hoonfeng/goproc/sdk"
 )
 
 // ToUpper 转换为大写

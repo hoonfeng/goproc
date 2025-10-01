@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"goproc/config"
+	"github.com/hoonfeng/goproc/config"
 
 	"github.com/google/uuid"
 )

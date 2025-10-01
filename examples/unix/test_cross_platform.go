@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"runtime"
-	"goproc/plugin"
-	"goproc/sdk"
+	"github.com/hoonfeng/goproc/plugin"
+	"github.com/hoonfeng/goproc/sdk"
 )
 
 // 跨平台兼容性测试 / Cross-platform compatibility test

@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"goproc/config"
-	"goproc/sdk"
+	"github.com/hoonfeng/goproc/config"
+	"github.com/hoonfeng/goproc/sdk"
 )
 
 // PluginInstance 插件实例

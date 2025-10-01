@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"goproc/config"
-	"goproc/plugin"
+	"github.com/hoonfeng/goproc/config"
+	"github.com/hoonfeng/goproc/plugin"
 )
 
 // main 主函数 - 演示插件系统的基本使用方法

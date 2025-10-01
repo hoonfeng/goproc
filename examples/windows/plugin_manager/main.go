@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"goproc/config"
-	"goproc/plugin"
+	"github.com/hoonfeng/goproc/config"
+	"github.com/hoonfeng/goproc/plugin"
 )
 
 // PluginManagerDemo 插件管理器演示程序

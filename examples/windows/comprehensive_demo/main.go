@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"goproc/config"
-	"goproc/plugin"
+	"github.com/hoonfeng/goproc/config"
+	"github.com/hoonfeng/goproc/plugin"
 )
 
 func main() {

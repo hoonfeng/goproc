@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"goproc/sdk"
+	"github.com/hoonfeng/goproc/sdk"
 )
 
 // Add 加法函数

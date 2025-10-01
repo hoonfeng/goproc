@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"goproc/config"
-	"goproc/plugin"
+	"github.com/hoonfeng/goproc/config"
+	"github.com/hoonfeng/goproc/plugin"
 )
 
 // TestConfig 测试配置结构体

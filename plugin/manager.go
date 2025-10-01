@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"goproc/config"
+	"github.com/hoonfeng/goproc/config"
 )
 
 // PluginManager 插件管理器
